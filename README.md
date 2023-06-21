@@ -1,6 +1,6 @@
-# Github Extraction tool 
+# GitHub Extraction tool 
 
-## About Github GraphQL API
+## About GitHub GraphQL API
 
 ### https://docs.github.com/en/graphql
 
