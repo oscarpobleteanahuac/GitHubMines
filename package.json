@@ -1,0 +1,25 @@
+{
+  "name": "githubmines",
+  "version": "1.0.0",
+  "description": "GithubMines is a tool designed to simplify the process of extracting data from the GitHub GraphQL API.",
+  "main": "main.js",
+  "scripts": {
+    "extract": "node -e \"require('./api/main').extractionSetup()\""
+  },
+  "author": "Sègla Jean-Luc Kpodjedo",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "file-system": "^2.2.2",
+    "json2csv": "^5.0.6",
+    "minimist": "^1.2.5",
+    "moment": "^2.29.4",
+    "mysql2": "^2.2.5",
+    "swagger": "^0.7.5",
+    "swagger-ui-express": "^4.1.6",
+    "yamljs": "^0.3.0"
+  }
+}

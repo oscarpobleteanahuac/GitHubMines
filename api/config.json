@@ -1,0 +1,40 @@
+{
+  "extraction": {
+    "githubTokens": ["YOUR_FIRST_TOKEN","YOUR_SECOND_TOKEN","..."],
+    "query": "mobile AND (android OR ios)",
+    "type": "REPOSITORY",
+    "dateType": "created",
+    "startDate": "2013-01-01",
+    "endDate": "2023-01-01",
+    "cursor": null,
+    "first": 10
+  },
+  "vault":{
+    "folderName": "./Vault"
+  },
+  "query":{
+    "folderName": "/Query",
+    "fileName": "/extractedQuery"
+  },
+  "topics": {
+    "folderName": "/Topics",
+    "fileName": "/extractedTopics"
+  },
+  "languages": {
+    "folderName": "/Languages",
+    "fileName": "/extractedLanguages"
+  },
+  "stackoverflow":{
+    "folderName": "./",
+    "fileName": "sodict"
+  },
+  "dictionary": {
+    "folderName": "/Dictionary",
+    "fileName": "/mergedDictionary"
+  },
+  "augmentation": {
+    "folderName": "/Results",
+    "fileName": "/augmentedData"
+  }
+}
+
